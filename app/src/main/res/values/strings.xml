@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Media Player</string>
+    <string name="playlist">Playlist</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="buy_songs">Buy Song</string>
+    <string name="search">Search Song</string>
+    <string name="my_library">My Library</string>
+    <string name="now_playing_description">The current playing song is diplayed here</string>
+    <string name="playlist_description">This activity will contain all the playlists</string>
+    <string name="my_library_description">This activity will contain all the songs that are stored in the device</string>
+    <string name="buy_songs_description">In this activity the user can buy any song using Paytm app API</string>
+    <string name="search_description">In this activity the user can directly search any song from the songs present in the device storage memory</string>
+</resources>

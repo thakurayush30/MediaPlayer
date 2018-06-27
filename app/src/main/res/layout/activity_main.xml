@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.mediaplayer.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/now_playing" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="420dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:src="@drawable/disc" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/now_playing_description" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:id="@+id/play_button"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/play_button" />
+
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/options"
+            android:id="@+id/my_library"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/my_library"/>
+
+        <TextView
+            android:id="@+id/playlist"
+            style="@style/options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/playlist"/>
+
+        <TextView
+            android:id="@+id/search"
+            style="@style/options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/search"/>
+
+        <TextView
+            android:id="@+id/buy_song"
+            style="@style/options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/buy_songs"/>
+
+    </LinearLayout>
+</ScrollView>
